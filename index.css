@@ -15,9 +15,15 @@
 		border: 0;
 		margin: 0;
 		font-size: 12px;
-		letter-spacing: 5px;}
-.navbar-nav li a:hover {
+		letter-spacing: 5px;
+		z-index: 9999;}
+.navbar-nav li a:hover ,.navbar-nav li.active a{
     color: #1abc9c !important;
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
 }
 body {
     font: 20px "Montserrat", sans-serif;
